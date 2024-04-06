@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(252, 252, 252);
+}
+.card {
+    background-color: aquamarine;
+    width: fit-content;
+    padding: 30px;
+    animation: animation 1s;
+    display: none;
+}
+.card button {
+    padding: 5px 15px;
+}
+@keyframes animation{
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
